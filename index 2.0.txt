@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <me122
+ta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripz Inc. & Eltee Co.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #f5f5f5;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(135deg, #1c1c1c, #2c3e50);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 3rem 2rem;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .intro h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .intro p {
+            max-width: 700px;
+            margin: auto;
+            color: #555;
+            font-size: 1.1rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+        }
+        footer {
+            background-color: #1c1c1c;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+        }
+        footer p {
+            margin: 0;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tripz Inc. & Eltee Co.</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro" id="about">
+            <h2>Luxury Experiences & Premium Solutions</h2>
+            <p>At Tripz Inc. & Eltee Co., we curate unforgettable journeys and deliver bespoke services tailored to discerning tastes. Our commitment to elegance, precision, and excellence ensures every interaction exceeds expectations.</p>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <img src="your-image1.jpg" alt="Gallery Image 1">
+            <img src="your-image2.jpg" alt="Gallery Image 2">
+            <img src="your-image3.jpg" alt="Gallery Image 3">
+        </section>
+
+        <section id="contact" class="intro">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@tripzeltee.com">info@tripzeltee.com</a></p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tripz Inc. & Eltee Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
